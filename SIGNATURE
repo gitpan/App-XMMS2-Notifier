@@ -1,0 +1,42 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+SHA1 a3d33ba9b04d9ba76c26725642dd200a92d3e4ec Changes
+SHA1 709bbf1487a68afd9e47c418304126eb4db42325 MANIFEST
+SHA1 1a7cba1568c8cdb95d867d53c2ab61d66b275b82 META.json
+SHA1 84e476b74562e3e07d0add01376ee6ce718aac3b META.yml
+SHA1 a5a71e88657ce63f626a51a390a6322b3327a55f Makefile.PL
+SHA1 4a1bf1ad2302def1edba203060a533e0e027851b README
+SHA1 ae915f905a94cdfdca43e96ab0fbbcc766f8008b lib/App/XMMS2/Notifier.pm
+SHA1 c6b146ec030c46a71c4895734da6215c31082c61 t/test.t
+SHA1 fefa0a389e6009f81aef27f95e815bc13b3951cb xmms2-notifier
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBCgAGBQJTHPZMAAoJEMoENb5ewbNiFmsP/0CpvFmbCuVwXcRqgQVmI03v
+UmBpaYtBhrsUc8a0TxVrFeOnyPbPi89nHh2gj4q2da2LcXtgUmTb0krhiP/jqOpV
+KVRXc+TL1QBld2tt7JfJP3HJaoplWgtrURiHZnKKPIhrrtDkaAMbmsdtjyf+ozII
+lN+ZMiBDOztY6uMdHKA/s7H5zOUIOgXparY9MVFduarYf/rmdmXL3u5FDXlwa4mc
+luF9KJXa7Rd/f2nACeuLuLZ8h3pJUDjClCJk1Wfz+/K1c3V9l9kEODxZpPZSmjCU
+klGENG14OKcz0tHAeUliEM47RAQqahU3lqpp3mmx3mBKFDkS2Z4qSd0ldKlJ0Cf0
+0idwVCE6HnfbnaIZve1QVNLShdwzMzWdsYztBD63dcgCixG6AXHb45nMZ655IJr3
+MggqiA+/F7HmqWpslBdB+mw4QAPmN5NqSl0WXcf8Cf7cM4TZ3Lu+xn2BndFtYg2l
+G2C9wpbkh2qfhqBv3SDmqIInRmtja/CazeKEhULBIT73aKbtFQJXyzQA1auevPTm
+OKEepVo3Qxs7QPknPgPleTab+KRCoRQiiSf9V36AX54ee7YSJoeY6jdF6w/HBpDp
+hK2qwMmlDjrMwSPq0Hr8+rzupjqWKqmapVw0PtFO4QdmrUkdlkSqXuCKpxCfFHQE
+7XEFwHtwF8TyuNJcuTSe
+=PKUs
+-----END PGP SIGNATURE-----

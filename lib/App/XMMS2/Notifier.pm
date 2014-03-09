@@ -1,6 +1,8 @@
-package App::XMMS2::Notifier 0.001;
+package App::XMMS2::Notifier;
 use v5.14;
+use strict;
 use warnings;
+our $VERSION = 0.001001;
 
 use Audio::XMMSClient 0.03;
 use Gtk2::Notify 0.05 -init,'xmms2-notifyd';

@@ -1,2 +1,10 @@
-App::XMMS2::Notifier (0.001)
-  * Initial release
+Revision history for Perl extension App::XMMS2::Notifier.
+
+0.001001 2014-03-10T01:15+02:00
+ - Update Changes to CPAN::Changes::Spec format
+ - Use a git repository (and mention it in Makefile.PL, too)
+ - Add SIGN => 1, LICENSE, MIN_PERL_VERSION, resources, dynamic_config => 0 to Makefile.PL
+ - Add use strict; to Notifier.pm to make Kwalitee happy
+
+0.001 2013-06-05
+ - Initial release
